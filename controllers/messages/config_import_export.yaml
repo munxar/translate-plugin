@@ -1,0 +1,13 @@
+# ===================================
+#  Import/Export Behavior Config
+# ===================================
+
+import:
+    title: Import messages
+    modelClass: Rainlab\Translate\Models\MessageImport
+    list: $/rainlab/translate/models/message/columns.yaml
+
+export:
+    title: Export messages
+    modelClass: Rainlab\Translate\Models\MessageExport
+    list: $/rainlab/translate/models/message/columns.yaml
